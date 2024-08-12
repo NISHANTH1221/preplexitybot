@@ -8,7 +8,6 @@ const TweetGenerator=()=>{
     const [error,setError] = useState(false);
 
     const handleSubmit= async (event)=>{
-        console.log("button Clicked");
         event.preventDefault();
         setIsLoading(true);
         try{
