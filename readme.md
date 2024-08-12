@@ -1,6 +1,6 @@
 ---
 
-# Web Scraping and Summarization Tool
+# Preplexity type AI Tool for writing Posts.
 
 This project is a web application built with React and Tailwind CSS. It utilizes Selenium WebDriver for web scraping and the GROQ API for generating summaries of recent news. Users can enter a topic they want to search for, and the application automates a Chrome session to search Google, scrape the first link in the news tab, and then forwards the content to an AI for summarization. The summarized result is displayed on the frontend.
 
@@ -51,7 +51,7 @@ This project is a web application built with React and Tailwind CSS. It utilizes
      ```
    - Start the React development server:
      ```bash
-     cd ../frontend
+     cd frontend
      npm run dev
      ```
 
