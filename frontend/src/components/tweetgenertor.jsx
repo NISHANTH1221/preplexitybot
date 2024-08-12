@@ -11,7 +11,7 @@ const TweetGenerator=()=>{
         console.log("button Clicked");
         event.preventDefault();
         try{
-            const response= await axios.post( "http://localhost:3000/createsummary" , { topic });
+            const response= await axios.post( `${import.meta.env.VITE_BACKEND_URL}/createsummary` , { topic });
             setAiArticle(response.data.summary);
             console.log(response.data.summary);
         }
